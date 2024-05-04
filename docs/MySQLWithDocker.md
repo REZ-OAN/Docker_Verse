@@ -31,25 +31,25 @@ docker logs mysql_test
 ```
 This will show information about the container's initialization.
 
-![mysql_test_logs](https://github.com/REZ-OAN/Docker_Verse/tree/mysql_with_docker/docs/images/logs.png)
+![mysql_test_logs](https://github.com/REZ-OAN/Docker_Verse/blob/mysql_with_docker/docs/images/logs.png)
 ## Step 4: Connect to MySQL Server and Create Database
 Open MySQL Workbench and log in as the root user using the password you provided. Create a new connection and
 fill in the details. Test the connection, and if successful, save it.
 Now, create a new database using this connection:
 
-![root_testdb](https://github.com/REZ-OAN/Docker_Verse/tree/mysql_with_docker/docs/images/root_testdb.png)
+![root_testdb](https://github.com/REZ-OAN/Docker_Verse/blob/mysql_with_docker/docs/images/root_testdb.png)
 
 Create A new connection
 
-![root_testdb](https://github.com/REZ-OAN/Docker_Verse/tree/mysql_with_docker/docs/images/new_connection.png)
+![root_testdb](https://github.com/REZ-OAN/Docker_Verse/blob/mysql_with_docker/docs/images/new_connection.png)
 
 Now add the connection after filling the fields
 
-![root_testdb](https://github.com/REZ-OAN/Docker_Verse/tree/mysql_with_docker/docs/images/add_connection.png)
+![root_testdb](https://github.com/REZ-OAN/Docker_Verse/blob/mysql_with_docker/docs/images/add_connection.png)
 
 Then click the `Test Connection` , you will see this dialog
 
-![success_dialog](https://github.com/REZ-OAN/Docker_Verse/tree/mysql_with_docker/docs/images/success.png)
+![success_dialog](https://github.com/REZ-OAN/Docker_Verse/blob/mysql_with_docker/docs/images/success.png)
 
 Then click ok to save the connection, now try to create a new database to this new connection using this sql command.
 ```
@@ -78,7 +78,7 @@ Then the user will get all privileges alike root user.
 
 Now  user `abir` can create and access the database on root.
 
-![user_created_database](https://github.com/REZ-OAN/Docker_Verse/tree/mysql_with_docker/docs/images/created_database.png)
+![user_created_database](https://github.com/REZ-OAN/Docker_Verse/blob/mysql_with_docker/docs/images/created_database.png)
 ## Step 6: Verify Persistence
 Stop the docker container
 ```
@@ -124,7 +124,7 @@ This command mounts the `/path/to/data_dir` directory on your host machine to th
 
 ## Step 8: Create Table and Insert Data to Database
 
-![data_table](https://github.com/REZ-OAN/Docker_Verse/tree/mysql_with_docker/docs/images/data_table.png)
+![data_table](https://github.com/REZ-OAN/Docker_Verse/blob/mysql_with_docker/docs/images/data_table.png)
 
 Now again stop and remove the container.
 
